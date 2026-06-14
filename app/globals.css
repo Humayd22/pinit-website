@@ -6,10 +6,13 @@
   html {
     scroll-behavior: smooth;
     color-scheme: only light;
+    background-color: #F8F9FB;
   }
 
   body {
     @apply bg-base font-sans text-ink antialiased;
+    background-color: #F8F9FB;
+    color: #1A1A2E;
   }
 
   ::selection {

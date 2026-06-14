@@ -11,6 +11,7 @@ const urbanist = Urbanist({
 
 export const viewport = {
   colorScheme: "light",
+  themeColor: "#F8F9FB",
 };
 
 export const metadata: Metadata = {
