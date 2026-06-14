@@ -4,7 +4,7 @@ const steps = [
   {
     number: "01",
     title: "Save it",
-    body: "Found somewhere worth remembering? Pin it in seconds — add the name, location, category, photos, and any notes you want to remember it by.",
+    body: "Found somewhere worth remembering? Pin it in seconds and add the name, location, category, photos, and any notes you want to remember it by.",
   },
   {
     number: "02",

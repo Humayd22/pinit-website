@@ -15,7 +15,7 @@ export default function Hero() {
             Never lose a great spot again.
           </h1>
           <p className="mx-auto mt-5 max-w-[52rem] text-lg leading-[1.7] text-ink-soft">
-            Pin!t is the home for every place you love — saved, organised by
+            Pin!t is the home for every place you love. Saved, organised by
             category, and ready the moment someone asks,{" "}
             <em className="not-italic font-medium text-ink">
               &ldquo;know anywhere good?&rdquo;

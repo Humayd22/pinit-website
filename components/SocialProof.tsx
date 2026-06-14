@@ -15,9 +15,8 @@ export default function SocialProof() {
             Join our early pinners.
           </h2>
           <p className="mx-auto mt-5 max-w-[32rem] text-lg leading-[1.7] text-ink-soft">
-            Pin!t is just getting started — and the people pinning today are
-            shaping what it becomes. Save your places, tell us what you think,
-            and watch the map fill in.
+            Pin!t is just getting started and the people pinning today are
+            shaping what it becomes. Save your places and tell us what you think.
           </p>
           <a
             href="https://instagram.com/pinit.world"

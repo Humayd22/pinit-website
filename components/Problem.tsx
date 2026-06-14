@@ -3,11 +3,11 @@ import FadeUp from "./FadeUp";
 const painPoints = [
   {
     title: "Found it Monday, forgot it Friday",
-    body: "You stumble on an incredible little place — the kind you swear you'll come back to. By the end of the week, the name is gone.",
+    body: "You stumble on an incredible little place. The kind you swear you'll come back to. By the end of the week, the name is gone.",
   },
   {
     title: "“Any recommendations?” …silence",
-    body: "Someone asks where to eat and your mind goes completely blank — even though you know good places. You've been to good places.",
+    body: "Someone asks where to eat and your mind goes completely blank. Even though you know good places. You've been to good places.",
   },
   {
     title: "Everyone raved, nobody remembered",
