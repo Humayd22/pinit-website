@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-base font-sans text-ink antialiased;
+  }
+
+  ::selection {
+    @apply bg-slate-pale text-ink;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-slate ring-offset-2 ring-offset-base;
+  }
+}

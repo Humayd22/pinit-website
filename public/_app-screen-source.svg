@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  <rect width="390" height="844" fill="#F8F9FB"/>
+
+  <!-- header -->
+  <text x="24" y="92" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="bold" fill="#1A1A2E">Pin!t</text>
+  <text x="24" y="116" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#90A4AE">Your places, remembered.</text>
+
+  <!-- search bar -->
+  <rect x="24" y="140" width="342" height="48" rx="24" fill="#FFFFFF" stroke="#DDE4EA"/>
+  <circle cx="52" cy="164" r="7" fill="none" stroke="#90A4AE" stroke-width="2"/>
+  <line x1="57" y1="169" x2="63" y2="175" stroke="#90A4AE" stroke-width="2" stroke-linecap="round"/>
+  <text x="76" y="169" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#B0BEC5">Search your pins</text>
+
+  <!-- category chips -->
+  <rect x="24" y="208" width="56" height="34" rx="17" fill="#90A4AE"/>
+  <text x="40" y="230" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#FFFFFF">All</text>
+  <rect x="88" y="208" width="106" height="34" rx="17" fill="#FFFFFF" stroke="#DDE4EA"/>
+  <text x="104" y="230" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4A4A5E">Restaurants</text>
+  <rect x="202" y="208" width="74" height="34" rx="17" fill="#FFFFFF" stroke="#DDE4EA"/>
+  <text x="218" y="230" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4A4A5E">Coffee</text>
+  <rect x="284" y="208" width="62" height="34" rx="17" fill="#FFFFFF" stroke="#DDE4EA"/>
+  <text x="300" y="230" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4A4A5E">Bars</text>
+
+  <!-- card 1 -->
+  <rect x="24" y="266" width="342" height="118" rx="16" fill="#FFFFFF" stroke="#DDE4EA"/>
+  <rect x="40" y="282" width="86" height="86" rx="12" fill="#C8D6DF"/>
+  <circle cx="83" cy="318" r="11" fill="#FFFFFF"/>
+  <path d="M83 336 L74 322 a11 11 0 1 1 18 0 Z" fill="#FFFFFF"/>
+  <rect x="142" y="294" width="150" height="14" rx="7" fill="#1A1A2E"/>
+  <rect x="142" y="318" width="190" height="10" rx="5" fill="#B0BEC5"/>
+  <rect x="142" y="338" width="120" height="10" rx="5" fill="#E8EDF2"/>
+
+  <!-- card 2 -->
+  <rect x="24" y="400" width="342" height="118" rx="16" fill="#FFFFFF" stroke="#DDE4EA"/>
+  <rect x="40" y="416" width="86" height="86" rx="12" fill="#B0BEC5"/>
+  <circle cx="83" cy="452" r="11" fill="#FFFFFF"/>
+  <path d="M83 470 L74 456 a11 11 0 1 1 18 0 Z" fill="#FFFFFF"/>
+  <rect x="142" y="428" width="120" height="14" rx="7" fill="#1A1A2E"/>
+  <rect x="142" y="452" width="180" height="10" rx="5" fill="#B0BEC5"/>
+  <rect x="142" y="472" width="140" height="10" rx="5" fill="#E8EDF2"/>
+
+  <!-- card 3 -->
+  <rect x="24" y="534" width="342" height="118" rx="16" fill="#FFFFFF" stroke="#DDE4EA"/>
+  <rect x="40" y="550" width="86" height="86" rx="12" fill="#E8EDF2"/>
+  <circle cx="83" cy="586" r="11" fill="#90A4AE"/>
+  <path d="M83 604 L74 590 a11 11 0 1 1 18 0 Z" fill="#90A4AE"/>
+  <rect x="142" y="562" width="160" height="14" rx="7" fill="#1A1A2E"/>
+  <rect x="142" y="586" width="170" height="10" rx="5" fill="#B0BEC5"/>
+  <rect x="142" y="606" width="100" height="10" rx="5" fill="#E8EDF2"/>
+
+  <!-- card 4 (partially visible) -->
+  <rect x="24" y="668" width="342" height="118" rx="16" fill="#FFFFFF" stroke="#DDE4EA"/>
+  <rect x="40" y="684" width="86" height="86" rx="12" fill="#C8D6DF"/>
+  <rect x="142" y="696" width="140" height="14" rx="7" fill="#1A1A2E"/>
+  <rect x="142" y="720" width="185" height="10" rx="5" fill="#B0BEC5"/>
+
+  <!-- bottom nav -->
+  <rect x="0" y="768" width="390" height="76" fill="#FFFFFF"/>
+  <line x1="0" y1="768" x2="390" y2="768" stroke="#DDE4EA"/>
+  <circle cx="78" cy="800" r="6" fill="#1A1A2E"/>
+  <circle cx="156" cy="800" r="6" fill="#DDE4EA"/>
+  <circle cx="234" cy="800" r="6" fill="#DDE4EA"/>
+  <circle cx="312" cy="800" r="6" fill="#DDE4EA"/>
+</svg>
