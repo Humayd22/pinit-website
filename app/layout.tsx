@@ -9,6 +9,10 @@ const urbanist = Urbanist({
   display: "swap",
 });
 
+export const viewport = {
+  colorScheme: "light",
+};
+
 export const metadata: Metadata = {
   title: "Pin!t — Never lose a great spot again",
   description:
