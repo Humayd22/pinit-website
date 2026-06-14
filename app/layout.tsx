@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={urbanist.variable}>
+    <html lang="en" className={urbanist.variable} style={{ colorScheme: "light" }}>
       <body>
         <ScrollIndicator />
         {children}
