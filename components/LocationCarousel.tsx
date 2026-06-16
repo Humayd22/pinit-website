@@ -3,13 +3,13 @@
 import { useEffect, useRef } from "react";
 
 const locationImages = [
-  { src: "/images/Coffee.png", alt: "Coffee shop" },
-  { src: "/images/Cove.png", alt: "Hidden cove" },
-  { src: "/images/Hike.png", alt: "Waterfall hike" },
-  { src: "/images/Mechanic.png", alt: "Mechanic" },
-  { src: "/images/Restaurant.png", alt: "Restaurant" },
-  { src: "/images/Shopping.png", alt: "Shopping" },
-  { src: "/images/Spa.png", alt: "Spa" },
+  { src: "/Images/Coffee.png", alt: "Coffee shop" },
+  { src: "/Images/Cove.png", alt: "Hidden cove" },
+  { src: "/Images/Hike.png", alt: "Waterfall hike" },
+  { src: "/Images/Mechanic.png", alt: "Mechanic" },
+  { src: "/Images/Restaurant.png", alt: "Restaurant" },
+  { src: "/Images/Shopping.png", alt: "Shopping" },
+  { src: "/Images/Spa.png", alt: "Spa" },
 ];
 
 const CARD_W = 220;
