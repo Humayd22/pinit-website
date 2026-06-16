@@ -3,13 +3,13 @@
 import { useEffect, useRef } from "react";
 
 const locationImages = [
-  { src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80", alt: "Restaurant" },
-  { src: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600&q=80", alt: "Coffee shop" },
-  { src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80", alt: "Viewpoint" },
-  { src: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80", alt: "Coffee shop" },
-  { src: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&q=80", alt: "City street" },
-  { src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80", alt: "Beach" },
-  { src: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80", alt: "Fine dining" },
+  { src: "/images/Coffee.png", alt: "Coffee shop" },
+  { src: "/images/Cove.png", alt: "Hidden cove" },
+  { src: "/images/Hike.png", alt: "Waterfall hike" },
+  { src: "/images/Mechanic.png", alt: "Mechanic" },
+  { src: "/images/Restaurant.png", alt: "Restaurant" },
+  { src: "/images/Shopping.png", alt: "Shopping" },
+  { src: "/images/Spa.png", alt: "Spa" },
 ];
 
 const CARD_W = 220;
