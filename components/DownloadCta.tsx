@@ -3,7 +3,7 @@ import StoreButtons from "./StoreButtons";
 
 export default function DownloadCta() {
   return (
-    <section className="bg-ink py-24 text-white lg:py-36">
+    <section className="bg-ink py-16 text-white lg:py-24">
       <div className="mx-auto max-w-[1140px] px-6 text-center sm:px-8">
         <FadeUp>
           <h2 className="mx-auto max-w-[40rem] text-[clamp(2rem,4.5vw,3.25rem)] font-bold leading-[1.1] tracking-heading">

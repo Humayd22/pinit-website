@@ -5,7 +5,7 @@ const EARLY_PINNERS = "500+";
 
 export default function SocialProof() {
   return (
-    <section className="bg-base py-24 lg:py-36">
+    <section className="bg-base py-16 lg:py-24">
       <div className="mx-auto max-w-[1140px] px-6 text-center sm:px-8">
         <FadeUp>
           <p className="text-[0.8125rem] font-semibold uppercase tracking-eyebrow text-slate">
