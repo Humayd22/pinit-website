@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.pinit.mobile",
+      "sha256_cert_fingerprints": [
+        "E3:C1:FD:50:ED:AC:7F:64:CD:CB:5A:4E:02:D1:A9:A6:4E:B4:D9:58:97:79:E3:C5:C9:1A:5D:49:B9:93:2B:FF"
+      ]
+    }
+  }
+]
