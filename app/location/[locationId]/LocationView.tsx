@@ -222,13 +222,9 @@ export default function LocationView({ location, categoryName }: LocationViewPro
           {/* Download Pin!t */}
           <a
             href={
-              isMobile
-                ? /iPhone|iPad|iPod/i.test(navigator.userAgent)
-                  ? 'https://apps.apple.com/us/app/pin-t/id6772275587'
-                  : /Android/i.test(navigator.userAgent)
-                  ? 'https://play.google.com/store/apps/details?id=com.pinit.mobile'
-                  : '/'
-                : '/'
+              /Android/i.test(navigator.userAgent)
+                ? 'https://play.google.com/store/apps/details?id=com.pinit.mobile'
+                : 'https://apps.apple.com/us/app/pin-t/id6772275587'
             }
             className="block w-full text-center px-6 py-4 bg-white text-[#0E192B] border-2 border-[#0E192B] rounded-[14px] font-medium text-[17px] hover:bg-gray-50 transition-colors mt-3"
           >
