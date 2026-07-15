@@ -230,8 +230,6 @@ export default function LocationView({ location, categoryName }: LocationViewPro
                   : '/'
                 : '/'
             }
-            target="_blank"
-            rel="noopener noreferrer"
             className="block w-full text-center px-6 py-4 bg-white text-[#0E192B] border-2 border-[#0E192B] rounded-[14px] font-medium text-[17px] hover:bg-gray-50 transition-colors mt-3"
           >
             Download Pin!t
