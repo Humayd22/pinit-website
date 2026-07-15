@@ -40,9 +40,15 @@ export default function LocationView({ location, categoryName }: LocationViewPro
     setIsMobile(mobile);
 
     if (mobile && !appOpened) {
-      // Try to open the app
+      // Try to open the app using iframe to avoid Chrome blocking download button
       const appUrl = `pinit://location/${location.id}`;
-      window.location.href = appUrl;
+      const iframe = document.createElement('iframe');
+      iframe.style.display = 'none';
+      iframe.src = appUrl;
+      document.body.appendChild(iframe);
+      setTimeout(() => {
+        document.body.removeChild(iframe);
+      }, 1000);
       setAppOpened(true);
     }
   }, [location.id, appOpened]);
