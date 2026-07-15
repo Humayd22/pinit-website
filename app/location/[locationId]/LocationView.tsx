@@ -231,9 +231,9 @@ export default function LocationView({ location, categoryName }: LocationViewPro
                   const isAndroid = /Android/i.test(navigator.userAgent);
 
                   if (isIOS) {
-                    window.location.href = 'https://apps.apple.com/app/pinit';
+                    window.location.href = 'https://apps.apple.com/us/app/pin-t/id6772275587';
                   } else if (isAndroid) {
-                    window.location.href = 'https://play.google.com/store/apps/details?id=com.pinit.app';
+                    window.location.href = 'https://play.google.com/store/apps/details?id=com.pinit.mobile';
                   } else {
                     window.location.href = '/';
                   }
