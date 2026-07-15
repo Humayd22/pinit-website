@@ -220,33 +220,22 @@ export default function LocationView({ location, categoryName }: LocationViewPro
           )}
 
           {/* Download Pin!t */}
-          <button
-            onClick={() => {
-              if (isMobile) {
-                // Try to open app
-                window.location.href = `pinit://location/${location.id}`;
-                // Fallback to app store after delay
-                setTimeout(() => {
-                  const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
-                  const isAndroid = /Android/i.test(navigator.userAgent);
-
-                  if (isIOS) {
-                    window.location.href = 'https://apps.apple.com/us/app/pin-t/id6772275587';
-                  } else if (isAndroid) {
-                    window.location.href = 'https://play.google.com/store/apps/details?id=com.pinit.mobile';
-                  } else {
-                    window.location.href = '/';
-                  }
-                }, 1500);
-              } else {
-                // Desktop: link to website
-                window.location.href = '/';
-              }
-            }}
+          <a
+            href={
+              isMobile
+                ? /iPhone|iPad|iPod/i.test(navigator.userAgent)
+                  ? 'https://apps.apple.com/us/app/pin-t/id6772275587'
+                  : /Android/i.test(navigator.userAgent)
+                  ? 'https://play.google.com/store/apps/details?id=com.pinit.mobile'
+                  : '/'
+                : '/'
+            }
+            target="_blank"
+            rel="noopener noreferrer"
             className="block w-full text-center px-6 py-4 bg-white text-[#0E192B] border-2 border-[#0E192B] rounded-[14px] font-medium text-[17px] hover:bg-gray-50 transition-colors mt-3"
           >
             Download Pin!t
-          </button>
+          </a>
         </div>
       </div>
     </div>
