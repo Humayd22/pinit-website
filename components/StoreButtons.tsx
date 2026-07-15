@@ -3,7 +3,7 @@
 import { useState } from "react";
 import AndroidModal from "./AndroidModal";
 
-const APP_STORE_URL = "https://testflight.apple.com/join/Xv1kFjpz";
+const APP_STORE_URL = "https://apps.apple.com/us/app/pin-t/id6772275587";
 
 type StoreButtonsProps = {
   variant?: "ink" | "light";
@@ -44,9 +44,9 @@ export default function StoreButtons({ variant = "ink" }: StoreButtonsProps) {
           <AppleIcon className="h-6 w-6" />
           <span className="text-left leading-tight">
             <span className={`block text-[0.6875rem] font-medium ${subLabelClasses}`}>
-              Download on
+              Download on the
             </span>
-            <span className="block text-base font-semibold">TestFlight</span>
+            <span className="block text-base font-semibold">App Store</span>
           </span>
         </a>
 

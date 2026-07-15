@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="mx-auto max-w-[1140px] px-6 pb-4 pt-10 text-center sm:px-8 lg:pt-14">
         <FadeUp>
           <p className="inline-block rounded-full border border-hairline bg-surface px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-eyebrow text-slate shadow-soft">
-            Now in testing · iOS &amp; Android
+            Now available on iOS · Android coming soon
           </p>
           <h1 className="mx-auto mt-6 max-w-[20rem] text-[clamp(2.5rem,6vw,4.5rem)] font-bold leading-[1.05] tracking-display sm:max-w-none">
             Never lose a great spot again.
